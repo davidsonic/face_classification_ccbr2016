@@ -2,7 +2,7 @@
 
 Code for face classification benchmark of the following paper
 
-[Face Classification: A Specialzed Benchmark Study](view-source:https://davidsonic.github.io/index/ccbr2016.pdf)
+[Face Classification: A Specialzed Benchmark Study](https://davidsonic.github.io/index/ccbr2016.pdf)
 
 Jiali Duan, Shengcai Liao, Shuai Zhou, Stan Z. Li 
 To appear in CCBR 2016 oral
@@ -50,20 +50,19 @@ export PYTHONPATH='/path/to/you/caffe-fast-rcnn/python':$PYTHONPATH
 ```
 
 You should get similar results saved under `pos` and `neg` directories of `save_dir`:
-![result](https://github.com/davidsonic/face_classification_ccbr2016/result.png)
+![result](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/result.png)
 
 ## Work in progress
 
 I'm in process of cleaning up my original evaluation code. 
 
 __TODO__:
-
- -[x] LBP training and evaluation code.
- -[x] MBLBP training and evaluation code.
- -[x] LOMO training and evaluation code. 
- -[x] NPD training and evaluation code. 
- -[x] cifar-10 based CNN baseline.
- -[x] Cascade CNN baseline. 
+ - [x] LBP training and evaluation code.
+ - [x] MBLBP training and evaluation code.
+ - [x] LOMO training and evaluation code. 
+ - [x] NPD training and evaluation code. 
+ - [x] cifar-10 based CNN baseline.
+ - [x] Cascade CNN baseline. 
 
 
 
