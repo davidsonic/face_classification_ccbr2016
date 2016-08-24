@@ -38,14 +38,11 @@ train a specialized faster-rcnn network for proposal extraction.
 Replace the original py-faster-rcnn directories with corresponding directories provided in `Proposal_Extraction_Code`. 
 Run the `face_proposal.py` to extract proposals.
 
-### Edit variables
-
 Make sure to change the following variables in the file according to your developing environment:
 1. `save_dir` is the path to save proposals
 2. `data_root` is the parent folder of JPEGImages of WIDER FACE
-3. `flabel` is the path to the label file of training directory. We have provided our training and testing list files in 
-train_test_list.tgz
-4. Add faster-rcnn-caffe-python path to your `PYTHONPATH` using the following command:
+3. `flabel` is the path to the label file. We have provided our training and testing list files in train_test_list.tgz
+4.  Add faster-rcnn-caffe-python path to your `PYTHONPATH` using the following command:
 
 ```shell
 export PYTHONPATH='/path/to/you/caffe-fast-rcnn/python':$PYTHONPATH
