@@ -38,6 +38,8 @@ train a specialized faster-rcnn network for proposal extraction.
 Replace the original py-faster-rcnn directories with corresponding directories provided in `Proposal_Extraction_Code`. 
 Run the `face_proposal.py` to extract proposals.
 
+### Edit variables
+
 Make sure to change the following variables in the file according to your developing environment:
 1. `save_dir` is the path to save proposals
 2. `data_root` is the parent folder of JPEGImages of WIDER FACE
