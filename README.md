@@ -50,7 +50,7 @@ export PYTHONPATH='/path/to/you/caffe-fast-rcnn/python':$PYTHONPATH
 ```
 
 You should get similar results saved under `pos` and `neg` directories of `save_dir`:
-![result](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/result.png)
+![result](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/result.png =450x300)
 
 ## Work in progress
 
