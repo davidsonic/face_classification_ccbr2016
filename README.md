@@ -52,6 +52,22 @@ export PYTHONPATH='/path/to/you/caffe-fast-rcnn/python':$PYTHONPATH
 You should get similar results saved under `pos` and `neg` directories of `save_dir`:
 ![result](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/rpn_face.jpg)
 
+## Evaluation
+
+All the neccessary codes and scores with respect to each basline algorithm are included in Evaluation_Code directory. You can simply run ShowROCCurve.m to get the final ROC curce. You should be able to get the following result.
+
+![baseline](https://github.com/davidsonic/face_classification_ccbr2016/tree/master/Evaluation_Code/enlarged.png)
+
+## Baseline
+
+Training and Testing Code for each baseline algorithm would be released
+
+### cifar-10 based CNN baseline
+
+### lomo+boosting
+
+
+
 ## Work in progress
 
 I'm in process of cleaning up my original evaluation code. 
@@ -59,9 +75,7 @@ I'm in process of cleaning up my original evaluation code.
 __TODO__:
  - [x] LBP training and evaluation code.
  - [x] MBLBP training and evaluation code.
- - [x] LOMO training and evaluation code. 
  - [x] NPD training and evaluation code. 
- - [x] cifar-10 based CNN baseline.
  - [x] Cascade CNN baseline. 
 
 
