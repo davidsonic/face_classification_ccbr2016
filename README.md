@@ -76,8 +76,13 @@ save_dir='lomo_score.txt'
 dlmwrite(save_dir,Fx);
 ```
 
-Train: inflate the directory `lomo+boost/Training/data` with data downloaded from . Enter `lomo+boost/Training/src` run `TrainDetector_Demo.m` and the training will be on the fly. Final model would be saved in `result.mat`, and you can get the inference model by extracting its model parameter.
+Train: inflate the directory `lomo+boost/Training/data` with data downloaded from http://pan.baidu.com/s/1o8xZSKE. Enter `lomo+boost/Training/src` run `TrainDetector_Demo.m` and the training will be on the fly. Final model would be saved in `result.mat`, and you can get the inference model by extracting its model parameter.
 
+### CNN_Cifar
+
+Evaluate: enter into `CNN_Cifar/Testing` and run `python Evaluate.py` to get the score. Make sure that you change `data_root` and `caffe_root` according to your environement.
+
+Train: files needed to train cifar10 based CNN are included in `CNN_Cifar/Training`. Training LMDB is available at http://pan.baidu.com/s/1c29P6KC. Run `./train_quick.sh` to train the CNN_Cifar model.
 
 ## Work in progress
 
