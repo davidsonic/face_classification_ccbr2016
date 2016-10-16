@@ -56,7 +56,7 @@ You should get similar results saved under `pos` and `neg` directories of `save_
 
 All the neccessary codes and scores with respect to each basline algorithm are included in Evaluation_Code directory. You can simply run ShowROCCurve.m to get the final ROC curce. You should be able to get the following result.
 
-![baseline](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/enlarged.png)
+![baseline](https://github.com/davidsonic/face_classification_ccbr2016/blob/master/enlarged.jpg)
 
 ## Baseline
 
