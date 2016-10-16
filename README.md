@@ -62,10 +62,21 @@ All the neccessary codes and scores with respect to each basline algorithm are i
 
 Training and Testing Code for each baseline algorithm would be released
 
-### cifar-10 based CNN baseline
-
 ### lomo+boosting
 
+Evaluate: files needed to test lomo+boosting can be downloaded via http://pan.baidu.com/s/1o7SlPqi and `lomo+boost/Testing` including test set of positive and negative samples(4D_Face_test.mat, 4D_Nonface_test.mat). You could extract corresponding LOMO features yourself or use extracted features saved in `feat_test.mat`. Final lomo+boosting model is also available：`lomo_boost.mat`.
+
+LOMO+Boosting score can be obtained through:
+
+```
+load('lomo_boost.mat','model');
+load feat_test.mat;
+save_dir='lomo_score.txt'
+[Fx,~]=TestGAB(model,feat_test);
+dlmwrite(save_dir,Fx);
+```
+
+Train: inflate the directory `lomo+boost/Training/data` with data downloaded from . Enter `lomo+boost/Training/src` run `TrainDetector_Demo.m` and the training will be on the fly. Final model would be saved in `result.mat`, and you can get the inference model by extracting its model parameter.
 
 
 ## Work in progress
